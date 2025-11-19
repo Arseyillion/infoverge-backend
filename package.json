@@ -1,5 +1,5 @@
 {
-  "name": "bugless-strapi-app-2",
+  "name": "strapipostgresql",
   "version": "0.1.0",
   "private": true,
   "description": "A Strapi application",
@@ -16,9 +16,9 @@
     "upgrade:dry": "npx @strapi/upgrade latest --dry"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "5.31.0",
-    "@strapi/plugin-users-permissions": "5.31.0",
-    "@strapi/strapi": "5.31.0",
+    "@strapi/plugin-cloud": "5.30.0",
+    "@strapi/plugin-users-permissions": "5.30.0",
+    "@strapi/strapi": "5.30.0",
     "fs-extra": "^10.0.0",
     "mime-types": "^2.1.27",
     "pg": "8.8.0",
@@ -34,11 +34,11 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": ">=20.0.0 <=24.x.x",
+    "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
   },
   "strapi": {
-    "uuid": "328d988c-698e-4a3e-a459-d00a5b83045c",
-    "installId": "53ccc77fc65e4f0f3aaf65c1bec9f920e6b83f087124252e7753297a079d97d8"
+    "uuid": "74109e2f-188d-410a-aff1-b87798ab27ce",
+    "installId": "dc22d88f480cc6cda76a91e72b7673de78896df4ffe5567907f4c294f824e87e"
   }
 }
